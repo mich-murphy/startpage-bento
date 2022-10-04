@@ -135,24 +135,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'book-open',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'YNAB',
+					link: 'https://app.youneedabudget.com/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Nix-Darwin',
+					link: 'https://daiderd.com/nix-darwin/manual/index.html#sec-options',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Home Manager',
+					link: 'https://nix-community.github.io/home-manager/options.html',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Home Manager - Darwin',
+					link: 'https://nix-community.github.io/home-manager/nix-darwin-options.html',
 				},
 			],
 		},
