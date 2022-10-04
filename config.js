@@ -36,10 +36,10 @@ const CONFIG = {
 	defaultLongitude: '144.361725',
 
 	// Autochange
-	autoChangeTheme: true,
+	autoChangeTheme: false,
 
 	// Autochange by OS
-	changeThemeByOS: true,
+	changeThemeByOS: false,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
 	changeThemeByHour: false,
@@ -65,21 +65,21 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Startpage',
+			icon: 'search',
+			link: 'https://www.startpage.com/',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Python',
+			icon: 'curly-braces',
+			link: 'https://docs.python.org/3/',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Nix Search',
+			icon: 'package-search',
+			link: 'https://search.nixos.org/packages',
 		},
 		{
 			id: '6',
@@ -161,20 +161,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'ABC News',
+					link: 'https://www.abc.net.au/news/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Guardian',
+					link: 'https://www.theguardian.com/au',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'The Saturday Paper',
+					link: 'https://www.theguardian.com/au',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'The Age',
+					link: 'https://www.theage.com.au/',
 				},
 			],
 		},
