@@ -59,9 +59,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://app.fastmail.com/',
+			name: 'YNAB',
+			icon: 'wallet',
+			link: 'https://app.youneedabudget.com/',
 		},
 		{
 			id: '3',
@@ -139,8 +139,8 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'YNAB',
-					link: 'https://app.youneedabudget.com/',
+					name: 'NixOS Wiki',
+					link: 'https://nixos.wiki/',
 				},
 				{
 					name: 'Nix-Darwin',
