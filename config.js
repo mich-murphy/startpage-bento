@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Startpage',
-			icon: 'search',
-			link: 'https://www.startpage.com/',
+			name: 'Media Server',
+			icon: 'hard-drive',
+			link: 'https://media/',
 		},
 		{
 			id: '4',
@@ -170,7 +170,7 @@ const CONFIG = {
 				},
 				{
 					name: 'The Saturday Paper',
-					link: 'https://www.theguardian.com/au',
+					link: 'https://www.thesaturdaypaper.com.au/',
 				},
 				{
 					name: 'The Age',
