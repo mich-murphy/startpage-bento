@@ -151,8 +151,8 @@ const CONFIG = {
 					link: 'https://nix-community.github.io/home-manager/options.html',
 				},
 				{
-					name: 'Home Manager - Darwin',
-					link: 'https://nix-community.github.io/home-manager/nix-darwin-options.html',
+					name: 'NixOS Manual',
+					link: 'https://nixos.org/manual/nix/unstable/introduction.html',
 				},
 			],
 		},
