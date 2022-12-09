@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Media Server',
-			icon: 'hard-drive',
-			link: 'https://media/',
+			name: 'Tailscale',
+			icon: 'network',
+			link: 'https://login.tailscale.com/admin/machines',
 		},
 		{
 			id: '4',
