@@ -71,9 +71,9 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Python',
-			icon: 'curly-braces',
-			link: 'https://docs.python.org/3/',
+			name: 'Blog',
+			icon: 'laptop',
+			link: 'https://micha.elmurphy.com',
 		},
 		{
 			id: '5',
