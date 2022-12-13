@@ -139,20 +139,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'NixOS Wiki',
-					link: 'https://nixos.wiki/',
+					name: 'NixOS Manual',
+					link: 'https://nixos.org/manual/nixos/stable/index.html#nixos-manual',
 				},
 				{
-					name: 'Nix-Darwin',
-					link: 'https://daiderd.com/nix-darwin/manual/index.html#sec-options',
+					name: 'Nix Manual',
+					link: 'https://nixos.org/manual/nix/unstable/introduction.html',
 				},
 				{
 					name: 'Home Manager',
 					link: 'https://nix-community.github.io/home-manager/options.html',
 				},
 				{
-					name: 'NixOS Manual',
-					link: 'https://nixos.org/manual/nix/unstable/introduction.html',
+					name: 'Nix Darwin',
+					link: 'https://daiderd.com/nix-darwin/manual/index.html#sec-options',
 				},
 			],
 		},
