@@ -139,12 +139,12 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'NixOS Manual',
-					link: 'https://nixos.org/manual/nixos/stable/index.html#nixos-manual',
-				},
-				{
 					name: 'Nix Manual',
 					link: 'https://nixos.org/manual/nix/unstable/introduction.html',
+				},
+				{
+					name: 'NixOS Manual',
+					link: 'https://nixos.org/manual/nixos/stable/index.html#nixos-manual',
 				},
 				{
 					name: 'Home Manager',
