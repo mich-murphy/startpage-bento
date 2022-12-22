@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'YouTube',
-			icon: 'youtube',
-			link: 'https://youtube.com/',
+			name: 'Proxmox',
+			icon: 'server',
+			link: 'https://alpha.zonkey-goblin.ts.net:8006/',
 		},
 	],
 
