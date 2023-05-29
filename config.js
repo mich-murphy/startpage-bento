@@ -85,7 +85,7 @@ const CONFIG = {
 			id: '6',
 			name: 'Proxmox',
 			icon: 'server',
-			link: 'https://alpha.zonkey-goblin.ts.net:8006/',
+			link: 'https://proxmox.zonkey-goblin.ts.net:8006/',
 		},
 	],
 
