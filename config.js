@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Michael',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -26,20 +26,20 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '55083ee42137c9f010e40cfab328d7ef', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '-38.149918',
+	defaultLongitude: '144.361725',
 
 	// Autochange
-	autoChangeTheme: true,
+	autoChangeTheme: false,
 
 	// Autochange by OS
-	changeThemeByOS: true,
+	changeThemeByOS: false,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
 	changeThemeByHour: false,
@@ -55,37 +55,37 @@ const CONFIG = {
 			id: '1',
 			name: 'Github',
 			icon: 'github',
-			link: 'https://github.com/',
+			link: 'https://github.com/mich-murphy',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'YNAB',
+			icon: 'wallet',
+			link: 'https://app.youneedabudget.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Tailscale',
+			icon: 'network',
+			link: 'https://login.tailscale.com/admin/machines',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Blog',
+			icon: 'laptop',
+			link: 'https://micha.elmurphy.com',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Nix Search',
+			icon: 'package-search',
+			link: 'https://search.nixos.org/packages',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Proxmox',
+			icon: 'server',
+			link: 'https://proxmox.zonkey-goblin.ts.net:8006/',
 		},
 	],
 
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'book-open',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Nix Manual',
+					link: 'https://nixos.org/manual/nix/unstable/introduction.html',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'NixOS Manual',
+					link: 'https://nixos.org/manual/nixos/stable/index.html#nixos-manual',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Home Manager',
+					link: 'https://nix-community.github.io/home-manager/options.html',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Nix Darwin',
+					link: 'https://daiderd.com/nix-darwin/manual/index.html#sec-options',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'newspaper',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'ABC News',
+					link: 'https://www.abc.net.au/news/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Guardian',
+					link: 'https://www.theguardian.com/au',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'The Saturday Paper',
+					link: 'https://www.thesaturdaypaper.com.au/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'The Age',
+					link: 'https://www.theage.com.au/',
 				},
 			],
 		},
