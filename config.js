@@ -150,7 +150,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Home Manager',
-					link: 'https://nix-community.github.io/home-manager/options.html',
+					link: 'https://nix-community.github.io/home-manager/options.xhtml',
 				},
 				{
 					name: 'Nix Darwin',
