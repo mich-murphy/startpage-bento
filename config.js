@@ -75,7 +75,7 @@ const CONFIG = {
 			id: '4',
 			name: 'Blog',
 			icon: 'laptop',
-			link: 'https://micha.elmurphy.com',
+			link: 'https://mich-murphy.com',
 		},
 		{
 			id: '5',
