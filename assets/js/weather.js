@@ -57,7 +57,13 @@ function getWeather(latitude, longitude) {
 }
 
 function displayWeather() {
-	iconElement.innerHTML = `<img src="assets/icons/${CONFIG.weatherIcons}/${weather.iconId}.png"/>`;
-	tempElement.innerHTML = `${weather.temperature.value.toFixed(0)}°<span class="darkfg">${tempUnit}</span>`;
-	descElement.innerHTML = weather.description;
+	// Values from the weather API are inserted as text/attributes, never as HTML.
+	const icon = document.createElement('img');
+	icon.src = `assets/icons/${CONFIG.weatherIcons}/${encodeURIComponent(weather.iconId)}.png`;
+	iconElement.replaceChildren(icon);
+	const unit = document.createElement('span');
+	unit.className = 'darkfg';
+	unit.textContent = tempUnit;
+	tempElement.replaceChildren(`${weather.temperature.value.toFixed(0)}°`, unit);
+	descElement.textContent = weather.description;
 }
